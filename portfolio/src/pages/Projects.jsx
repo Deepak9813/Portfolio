@@ -16,7 +16,7 @@ export default function Projects() {
       tech: ["React", "Django", "PostgreSQL", "JWT"],
       image:
         "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1000&auto=format&fit=crop",
-      github: "https://github.com/s-k-m1",
+      github: "",
       demo: "#",
     },
     {
@@ -27,7 +27,7 @@ export default function Projects() {
       tech: ["Python", "Django", "Redis"],
       image:
         "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1000&auto=format&fit=crop",
-      github: "https://github.com/s-k-m1",
+      github: "",
       demo: "#",
     },
     {
@@ -38,7 +38,7 @@ export default function Projects() {
       tech: ["Python", "Django", "PostgreSQL"],
       image:
         "https://images.unsplash.com/photo-1550565118-3d143c61582b?q=80&w=1000&auto=format&fit=crop",
-      github: "https://github.com/s-k-m1",
+      github: "",
       demo: "#",
     },
     {
@@ -49,7 +49,7 @@ export default function Projects() {
       tech: ["React", "Django", "API"],
       image:
         "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1000&auto=format&fit=crop",
-      github: "https://github.com/s-k-m1",
+      github: "",
       demo: "#",
     },
   ];
