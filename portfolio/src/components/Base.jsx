@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Github, Facebook, Instagram, Linkedin } from "lucide-react";
 import { FaTiktok } from "react-icons/fa";
+import skmPic from "../assets/images/db_logo.png";
 
 export default function Base({ children }) {
   const [navOpen, setNavOpen] = useState(false);
@@ -86,7 +87,7 @@ export default function Base({ children }) {
           <Link to="/" className="flex items-center gap-2 flex-shrink-0 z-10">
             <img 
               src="src/assets/images/db_logo.png" 
-              alt="SKM Logo" 
+              alt="error" 
               className="h-12 w-12 rounded-lg object-cover border border-blue-500/30" 
             />
           </Link>
