@@ -14,7 +14,7 @@ export default function Base({ children }) {
   const navItems = ["Home", "About", "Services", "Contact", "Projects", "Blog"];
   const socialIcons = [
     { icon: <Github />, link: "https://github.com/Deepak9813" },
-    { icon: <Facebook />, link: "https://www.facebook.com/share/17oLBH5ShL" },
+    { icon: <Facebook />, link: "https://facebook.com/" },
     { icon: <Instagram />, link: "https://instagram.com/" },
     { icon: <Linkedin />, link: "https://www.linkedin.com/in/deepak-baij-837989361" },
     { icon: <FaTiktok />, link: "https://www.tiktok.com/@di_pu2055" },
@@ -85,11 +85,11 @@ export default function Base({ children }) {
           
           {/* Logo - Perfectly Left Aligned */}
           <Link to="/" className="flex items-center gap-2 flex-shrink-0 z-10">
-            <img 
-              src="src/assets/images/db_logo.png" 
-              alt="error" 
-              className="h-12 w-12 rounded-lg object-cover border border-blue-500/30" 
-            />
+           <img 
+            src={skmPic} 
+            alt="logo" 
+            className="h-12 w-12 rounded-lg object-cover border border-blue-500/30" 
+          />
           </Link>
 
           {/* Desktop nav - Centered in the middle of the viewport.
